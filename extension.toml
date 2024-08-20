@@ -1,0 +1,11 @@
+id = "hlsl"
+name = "HLSL"
+version = "0.0.1"
+schema_version = 1
+authors = ["Igor Dreher <igor.dreher@gmail.com>"]
+description = "HLSL Support"
+repository = "https://github.com/igordreher/zed-hlsl"
+
+[grammars.hlsl]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-hlsl"
+commit = "5d788a46727c8199a7c63a3c849092e0364375b6"

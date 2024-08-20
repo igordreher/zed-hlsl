@@ -1,0 +1,11 @@
+id = "hlsl"
+name = "HLSL"
+grammar = "hlsl"
+path_suffixes = ["hlsl"]
+line_comments = ["// "]
+block_comment = ["/* ", " */"]
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+]
